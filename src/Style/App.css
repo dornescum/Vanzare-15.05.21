@@ -3,8 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 2rem;
+  /*pointer-events: none;*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+:root{
+  --mc-col:#bf8fc6;
+  --light:#f2c0f9;
+  --dark:#8e6195;
+
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 5px;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }

@@ -1,0 +1,13 @@
+.me-navbar{
+    background-color: #bf8fc6!important;
+}
+.navbar-nav, .nav-link, a {
+    color: var(--light) !important;
+    transition: var(--transition);
+}
+.nav-item a:hover {
+    color: var(--dark) !important;
+    transition: var(--transition);
+
+}
+

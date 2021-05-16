@@ -1,0 +1,18 @@
+.footer{
+    background-color: var(--mc-col);
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem 0;
+}
+.footer-link{
+    padding: .2rem 1rem;
+    list-style: none;
+    color: var(--light);
+    transition: var(--transition);
+}
+.footer-link:hover{
+    color: var(--dark);
+}

@@ -3,6 +3,7 @@
 import React, {Suspense, lazy} from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import TheNavbar from "./Components/UI/TheNavbar";
+import TheFooter from "./Components/UI/TheFooter";
 
 import './Style/App.css';
 import './Style/index.css';
@@ -40,7 +41,7 @@ function App() {
               {/*<Route component={NoMatch} />*/}
             </Switch>
           </Suspense>
-          {/*<Footer />*/}
+          <TheFooter />
         </Router>
       </React.Fragment>
   );

@@ -10,4 +10,6 @@
     transition: var(--transition);
 
 }
-
+.brand{
+    font-style: italic;
+}

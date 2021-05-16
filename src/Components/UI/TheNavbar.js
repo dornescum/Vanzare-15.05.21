@@ -7,9 +7,9 @@ import './Navbar.css'
 const TheNavbar=()=>{
     return <>
         <Navbar expand="lg" className='me-navbar'>
-            <Navbar.Brand href="/">
-                <img src={logo} alt="" className='App-logo'/>
-                Burnitei</Navbar.Brand>
+            <Navbar.Brand href="/" className="brand">
+                <img src={logo} alt="" className='App-logo' style={{paddingRight:"10px"}} />Burnitei
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

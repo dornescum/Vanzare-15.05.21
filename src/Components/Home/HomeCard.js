@@ -49,9 +49,9 @@ const HomeCard = () => {
                         show that equal height action.
                     </Card.Text>
                 </Card.Body>
-                <Button variant="primary">Go somewhere</Button>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <Button className="btn-main">Go somewhere</Button>
+
                 </Card.Footer>
             </Card>
         </div>

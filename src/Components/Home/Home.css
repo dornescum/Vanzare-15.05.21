@@ -1,3 +1,37 @@
+
+.puppy-img{
+    /*height: 2rem;*/
+    /*width: 2rem;*/
+}
+.puppy-img img{
+    height: 2rem;
+    width: 2rem;
+}
+.home-title{
+    font-style: italic;
+}
+@media screen and (max-width: 768px){
+    .home-title{
+        font-size: 1rem;
+    }
+}
+.home-presentation{
+    background-color: red;
+}
+/*===card====*/
+.btn-main{
+    background-color: var(--c-btn);
+    color: var(--black);
+    outline: none;
+    border: none;
+    transition: var(--transition);
+    box-shadow: var(--light-shadow);
+}
+.btn-main:hover{
+    transform: translate3d(0, -5px, 0);
+    box-shadow: var(--dark-shadow);
+}
+/*=======bottom*/
 #fade-text{
     font-size: 1rem;
     /*margin: .5rem 1rem;*/

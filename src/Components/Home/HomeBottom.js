@@ -5,7 +5,7 @@ import {Button, Fade} from "react-bootstrap";
 
 const HomeBottom =()=>{
     const [open, setOpen] = useState(false);
-    return   <>
+    return   <div className="home-bottom">
         <Button
             onClick={() => setOpen(!open)}
             aria-controls="example-fade-text"
@@ -20,6 +20,6 @@ const HomeBottom =()=>{
                 labore wes anderson cred nesciunt sapiente ea proident.
             </div>
         </Fade>
-    </>
+    </div>
 }
 export default HomeBottom;

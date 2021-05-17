@@ -40,12 +40,13 @@
   --mc-col:#bf8fc6;
   --light:#f2c0f9;
   --dark:#8e6195;
-  --backgroud: #f4bbff;
+  --backgroud:   #fff0f5;
   --c-btn: #e2eafc;
   --black: #000;
 
 
   --transition: all 0.3s linear;
+  --transform:translate3d(0, -5px, 0);
   --spacing: 0.1rem;
   --radius: 5px;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);

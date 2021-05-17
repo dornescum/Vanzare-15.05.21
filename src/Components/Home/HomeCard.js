@@ -1,9 +1,9 @@
 import {CardGroup, Card, Button} from "react-bootstrap";
 
 const HomeCard = () => {
-    return <CardGroup style={{margin: '1rem'}}>
+    return <CardGroup className="home-card">
         <div className="col-lg-3 col-md-4 col-sm-6">
-            <Card style={{margin: '.1rem'}}>
+            <Card className="home-card-item">
                 <Card.Img variant="top"
                           src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGhvbWV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
                 <Card.Body>
@@ -20,7 +20,7 @@ const HomeCard = () => {
             </Card>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6">
-            <Card style={{margin: '.1rem'}}>
+            <Card className="home-card-item">
                 <Card.Img variant="top"
                           src="https://images.unsplash.com/photo-1511732351157-1865efcb7b7b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDl8fGhvbWV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
                 <Card.Body>
@@ -38,7 +38,7 @@ const HomeCard = () => {
 
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6">
-            <Card style={{margin: '.1rem'}}>
+            <Card className="home-card-item">
                 <Card.Img variant="top"
                           src="https://images.unsplash.com/photo-1529518189823-e18dc00cfd0a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGhvbWV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
                 <Card.Body>
@@ -56,7 +56,7 @@ const HomeCard = () => {
             </Card>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6">
-            <Card style={{margin: '.1rem'}}>
+            <Card className="home-card-item">
                 <Card.Img variant="top"
                           src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9vbXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
                 <Card.Body>

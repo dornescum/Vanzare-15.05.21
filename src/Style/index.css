@@ -5,6 +5,7 @@ body, html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgroud) !important;
 }
 
 code {
@@ -12,5 +13,5 @@ code {
     monospace;
 }
 #root{
-  background-color:  var(--backgroud);
+  /*background-color:  var(--backgroud);*/
 }

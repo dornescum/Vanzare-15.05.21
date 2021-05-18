@@ -214,6 +214,7 @@
 .home-btn:focus{
     background-color: var(--dark) !important;
 }
+
 @media screen and (max-width: 1920px){
 
     .puppy-img img{

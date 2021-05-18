@@ -1,7 +1,7 @@
 .footer{
     /*background-color: var(--mc-col);*/
     position: sticky;
-    bottom: 0;
+    bottom: 10px;
 }
 .footer-list{
     display: flex;

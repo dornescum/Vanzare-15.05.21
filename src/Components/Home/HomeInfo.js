@@ -10,7 +10,7 @@ const HomeInfo=()=>{
                 </div>
             </Col>
             <Col lg="8" md="6" sm="10" xs="9">
-                <h1 className="home-title">Fluid jumbotron</h1>
+                <h1 className="home-title">Apartamentul de langa nuci</h1>
             </Col>
         </Row>
             <div className="home-presentation">

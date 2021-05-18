@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+/*font-family: 'Indie Flower', cursive;*/
 :root{
   --mc-col:#bf8fc6;
   --light:#f2c0f9;
@@ -45,7 +46,7 @@
   --black: #000;
   --white: #fff;
 
-  --font: "Brush Script MT";
+  --font: 'Indie Flower', cursive;
 
   --transition: all 0.3s linear;
   --transition-ease: all 0.3s ease;

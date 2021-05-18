@@ -10,6 +10,7 @@ const HomeBottom =()=>{
             onClick={() => setOpen(!open)}
             aria-controls="example-fade-text"
             aria-expanded={open}
+            className='home-btn'
         >
             Contact
         </Button>

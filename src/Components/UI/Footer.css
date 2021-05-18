@@ -1,5 +1,7 @@
 .footer{
-    background-color: var(--mc-col);
+    /*background-color: var(--mc-col);*/
+    position: sticky;
+    bottom: 0;
 }
 .footer-list{
     display: flex;
@@ -15,4 +17,24 @@
 }
 .footer-link:hover{
     color: var(--dark);
+}
+.footer-btn{
+    color: var(--light);
+    background: var(--mc-col);
+    border: 1px solid var(--light);
+    padding: 0.3rem 0.15rem;
+    display: inline-block;
+    margin-top: 0.75rem;
+    /*text-transform: uppercase;*/
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    /*width: 100px;*/
+    outline: none;
+}
+.footer-btn:hover{
+    background: var(--light);
+    color: var(--mc-col);
 }

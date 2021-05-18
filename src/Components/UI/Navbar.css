@@ -1,5 +1,10 @@
 .me-navbar{
     background-color: #bf8fc6!important;
+    /*font-family: "Brush Script MT" !important;*/
+    font-family: var(--font);
+    font-size: 1.3rem;
+    letter-spacing: var(--spacing);
+
 }
 .navbar-nav, .nav-link, a {
     color: var(--light) !important;

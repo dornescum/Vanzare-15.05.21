@@ -2,6 +2,8 @@
     /*background-color: var(--mc-col);*/
     position: sticky;
     bottom: 10px;
+    font-family: var(--font);
+
 }
 .footer-list{
     display: flex;

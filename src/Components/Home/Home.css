@@ -172,7 +172,9 @@
 .home-card-item:hover{
     transform: var(--transform);
     box-shadow: var(--dark-shadow);
-
+}
+.img-card-main{
+    height: 28vh;
 }
 
 .btn-main{
@@ -232,6 +234,9 @@
     .home-caroussel-img{
         height: 90vh;
     }
+    .img-card-main{
+        height: 32vh;
+    }
 }
 @media screen and (max-width: 1440px){
     .home-caroussel-img{
@@ -240,15 +245,24 @@
     .home-card-item{
         height: 30rem;
     }
+    /*.img-card-main{*/
+    /*    height: 20vh;*/
+    /*}*/
 }
 @media screen and (max-width: 1366px){
     .home-caroussel-img{
         height: 70vh;
     }
+    .img-card-main{
+        height: 20vh;
+    }
 }
 @media screen and (max-width: 1024px){
     .home-caroussel-img{
         height: 60vh;
+    }
+    .img-card-main{
+        height: 15vh;
     }
 }
 @media screen and (max-width: 768px){
@@ -268,6 +282,9 @@
     }
     .home-card-item{
         height: 25rem;
+    }
+    .img-card-main{
+        height: 15vh;
     }
 }
 @media screen and (max-width: 600px){
@@ -295,5 +312,7 @@
     .home-card-item{
         height: 30rem;
     }
-
+    .img-card-main{
+        height: 32vh;
+    }
 }

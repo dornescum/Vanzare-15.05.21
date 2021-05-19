@@ -41,7 +41,7 @@ const HomeCard = () => {
             return <div className="col-lg-3 col-md-4 col-sm-6"  key={id}>
                 <Card className="home-card-item">
                     <Card.Img variant="top"
-                              src={img}/>
+                              src={img} className='img-card-main'/>
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>

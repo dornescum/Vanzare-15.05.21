@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
-}
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
 
 .App-logo {
   height: 2rem;
@@ -13,20 +13,20 @@
   }
 }
 
-.App-header {
-  /*background-color: #282c34;*/
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*.App-header {*/
+/*  !*background-color: #282c34;*!*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
 
-.App-link {
-  color: #61dafb;
-}
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
 
 @keyframes App-logo-spin {
   from {
@@ -46,9 +46,7 @@
   --c-btn: #e2eafc;
   --black: #000;
   --white: #fff;
-
   --font: 'Indie Flower', cursive;
-
   --transition: all 0.3s linear;
   --transition-ease: all 0.3s ease;
   --transform:translate3d(0, -1px, 0);
@@ -56,4 +54,12 @@
   --radius: 5px;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-general{
+  cursor: pointer;
+  transition: var(--transition);
+}
+.img-general:hover{
+  transform: var(--transform);
 }

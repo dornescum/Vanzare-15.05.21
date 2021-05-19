@@ -209,14 +209,14 @@
 .home-btn:hover{
     transition: var(--transition);
     box-shadow: var(--light-shadow);
-    background-color: var(--dark) !important;
+    background-color: var(--dark);
     color: var(--white) !important;
 }
 .home-btn:active{
-    background-color: var(--dark) !important;
+    background-color: var(--dark);
 }
 .home-btn:focus{
-    background-color: var(--dark) !important;
+    background-color: var(--dark);
 }
 
 @media screen and (max-width: 1920px){

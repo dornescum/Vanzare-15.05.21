@@ -4,7 +4,7 @@
     "title": "Baie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/1.jpg",
     "id": 1
   },
 {
@@ -12,11 +12,12 @@
     "title": "Baie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/1.jpg",
     "id": 2
-  }, {
-    "name": "Dormitor",
-    "title": "Dormitor",
+  },
+  {
+    "name": "Baie",
+    "title": "Baie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
     "img": "/img/2.jpg",
@@ -29,6 +30,143 @@
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
     "img": "/img/2.jpg",
     "id": 4
+  },
+  {
+    "name": "Balcon",
+    "title": "Balcon",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 5
+  },
+{
+    "name": "Balcon",
+    "title": "Balcon",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 6
+  },
+  {
+    "name": "Balcon",
+    "title": "Balcon",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 7
+  },
+{
+    "name": "Balcon",
+    "title": "Balcon",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 8
+  },
+{
+    "name": "Bucatarie",
+    "title": "Bucatarie",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 9
+  },
+{
+    "name": "Bucatarie",
+    "title": "Bucatarie",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 10
+  },
+  {
+    "name": "Bucatarie",
+    "title": "Bucatarie",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 11
+  },
+{
+    "name": "Bucatarie",
+    "title": "Bucatarie",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 12
+  },
+{
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 13
+  },
+{
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 14
+  },
+  {
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 15
+  },
+{
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 16
+  },
+{
+    "name": "Living",
+    "title": "Living",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 17
+  },
+{
+    "name": "Living",
+    "title": "Living",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 18
+  },
+  {
+    "name": "Living",
+    "title": "Living",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 19
+  },
+{
+    "name": "Living",
+    "title": "Living",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 20
+  },
+  {
+    "name": "Parcare",
+    "title": "Parcare",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/2.jpg",
+    "id": 20
   }
+
 
 ]

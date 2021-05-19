@@ -6,13 +6,12 @@ import {useState} from "react";
 
 
 const BalconCard =()=>{
-    const [data, setData]=useState(dataInfo)
-    const filteredData = data.filter((item)=>{
+    // const [data, setData]=useState(dataInfo)
+    const filteredData = dataInfo.filter((item)=>{
         return item.name ==="Baie"
     })
 
     let title ='dsadasdas';
-    console.log(data)
     // return <CardHelper title={title}>
     //     {data.map((item)=>{
     //         console.log(item)

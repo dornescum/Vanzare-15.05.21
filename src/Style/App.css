@@ -42,6 +42,7 @@
   --light:#f2c0f9;
   --dark:#8e6195;
   --backgroud:   #fff0f5;
+  --jumbotron:#e9ecef;
   --c-btn: #e2eafc;
   --black: #000;
   --white: #fff;
@@ -51,7 +52,7 @@
   --transition: all 0.3s linear;
   --transition-ease: all 0.3s ease;
   --transform:translate3d(0, -1px, 0);
-  --spacing: 0.1rem;
+  --spacing: 0.02rem;
   --radius: 5px;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);

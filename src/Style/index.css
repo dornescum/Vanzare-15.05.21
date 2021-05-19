@@ -5,6 +5,8 @@ body, html {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   /*font-family: "Brush Script MT" !important;*/
+  font-family: 'Indie Flower' ! important;
+  letter-spacing: var(--spacing);
   /*font-size: 1.3rem;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

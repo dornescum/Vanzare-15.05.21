@@ -59,7 +59,33 @@
 .img-general{
   cursor: pointer;
   transition: var(--transition);
+
 }
 .img-general:hover{
   transform: var(--transform);
+}
+@media screen and (max-width: 1920px){
+  .img-general{
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 1366px){
+  .img-general{
+    height: 55vh;
+  }
+}
+@media screen and (max-width: 1024px){
+  .img-general{
+    height: 25vh;
+  }
+}
+@media screen and (max-width: 768px){
+  .img-general{
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 600px){
+  .img-general{
+    height: 30vh;
+  }
 }

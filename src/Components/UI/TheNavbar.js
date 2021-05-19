@@ -5,6 +5,45 @@ import {Nav, Navbar} from 'react-bootstrap';
 import './Navbar.css'
 
 const TheNavbar=()=>{
+    const links = [
+        {
+            name: 'Acasa',
+            path: '/',
+            id: 1
+        },
+         {
+            name: 'Living Room',
+            path: '/Living',
+            id: 2
+        },
+         {
+            name: 'Dormitor',
+            path: '/Dormitor',
+            id: 3
+        },
+         {
+            name: 'Bucatarie',
+            path: '/Bucatarie',
+            id: 4
+        },
+         {
+            name: 'Balcon',
+            path: '/Balcon',
+            id: 5
+        },
+         {
+            name: 'Baie',
+            path: '/Baie',
+            id: 6
+        },
+ {
+            name: 'Parcare',
+            path: '/Parcare',
+            id: 7
+        },
+
+    ]
+
     return <>
         <Navbar expand="lg" className='me-navbar'>
             <Navbar.Brand href="/" className="brand">
@@ -13,13 +52,10 @@ const TheNavbar=()=>{
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link href="/">Acasa</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/Living">Living Room</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/Dormitor">Dormitor</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/Bucatarie">Bucatarie</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/Balcon">Balcon</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/parcare">Parcare</Nav.Link></Nav.Item>
+                    {links.map((item)=>{
+                        return     <Nav.Item key={item.id}><Nav.Link href={item.path}>{item.name}</Nav.Link></Nav.Item>
 
+                    })}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

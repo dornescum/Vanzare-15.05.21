@@ -1,4 +1,11 @@
+import ContentWrapper from "../UI/Helpers/ContentWrapper/ContentWrapper";
+import BaieInfo from "./BaieInfo";
+import BaieCard from "./BaieCard";
+
 const Baie =()=>{
-    return <h1>Baie</h1>
+    return <ContentWrapper>
+        <BaieInfo />
+        <BaieCard />
+    </ContentWrapper>
 };
 export default Baie;

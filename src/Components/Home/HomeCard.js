@@ -7,14 +7,14 @@ const HomeCard = () => {
         {
             title: 'living-room',
             desc: 'lorem21dsad dsad sad sadsa dsad sadsdsadasd asd asd asd  dsadasd asdasd',
-            img: logo,
+            img: '/logo512.png',
             path: './',
             id: 1
         },
         {
             title: 'bedroom',
             desc: 'lorem21dsad dsad sad sadsa dsad sadsdsadasd asd asd asd  dsadasd asdasd',
-            img: logo,
+            img: '/img/2.jpg',
             path: './dormitor',
             id: 2
         },

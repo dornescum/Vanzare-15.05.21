@@ -1,5 +1,6 @@
-import {Carousel, Container} from "react-bootstrap";
+import {Carousel, Container, Row, Col, Image} from "react-bootstrap";
 import logo from '../../assets/img/1.jpeg';
+import './Carousel.css'
 
 
 const HomeCaroussel =()=>{
@@ -26,49 +27,38 @@ const HomeCaroussel =()=>{
     ]
 
     return <div className="home-caroussel  border-rounded">
-        <Container>
-            <Carousel >
-                {fotoCaroussel.map((el)=>{
-                    const {id, title, desc, img} = el;
-                    return     <Carousel.Item key={id}>
-                        <img
-                            className="d-block w-100 home-caroussel-img"
-                            src={logo}
-                        />
-                        <Carousel.Caption>
-                            <h3>{title}</h3>
-                            <p>{desc}</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                })}
+        <div className='home-caroussel-container'>
 
-                {/*<Carousel.Item>*/}
-                {/*    <img*/}
-                {/*        className="d-block w-100 border-rounded"*/}
-                {/*        src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGhvbWV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"*/}
-                {/*        alt="Second slide"*/}
-                {/*    />*/}
+                <div className='col-left'>
+                    <Carousel >
+                        {fotoCaroussel.map((el)=>{
+                            const {id, title, desc, img} = el;
+                            return     <Carousel.Item key={id} >
+                                <img
+                                    className="d-block home-caroussel-img"
+                                    src={logo}
+                                />
+                                <Carousel.Caption>
+                                    <h3>{title}</h3>
+                                    <p>{desc}</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        })}
 
-                {/*    <Carousel.Caption>*/}
-                {/*        <h3>Second slide label</h3>*/}
-                {/*        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>*/}
-                {/*    </Carousel.Caption>*/}
-                {/*</Carousel.Item>*/}
-                {/*<Carousel.Item>*/}
-                {/*    <img*/}
-                {/*        className="d-block w-100 border-rounded"*/}
-                {/*        src="https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvbWV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"*/}
-                {/*        alt="Third slide"*/}
-                {/*    />*/}
+                    </Carousel>
+                </div>
+                <div>
+                    <Image srcSet='/img/parcare/p-600.webp 600w, /img/parcare/p-1366.webp 1400w, /img/parcare/p-1920.webp 1920w'
+                           sizes="(max-width:600px) 100vw,
+                            (max-width: 768px) 100vh,
+                            (max-width:1920px) 100vh" className='replace-carousel' fluid/>
+                </div>
+                <div className='col-right'>
+                    <p id='message'> Toate ferestrele apartamentului sunt spre curtea interioara, marginita la gard de nuci. Acest lucru il face racoros si umbros vara. Aerul conditionat cu care este echipata casa a fost foarte rar folosit.</p>
+                </div>
 
-                {/*    <Carousel.Caption>*/}
-                {/*        <h3>Third slide label</h3>*/}
-                {/*        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>*/}
-                {/*    </Carousel.Caption>*/}
-                {/*</Carousel.Item>*/}
+        </div>
 
-            </Carousel>
-        </Container>
 
     </div>
 };

@@ -1,0 +1,80 @@
+#message {
+    position: relative;
+    animation: message 10s;
+    animation-fill-mode: forwards;
+    transition: message linear;
+    margin:6rem 2rem;
+}
+
+#message:hover{
+    transition: var(--transition);
+}
+
+@keyframes message {
+    from {
+        opacity: 0;
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0px) scale(0.9);
+        transform: translateX(0px) scale(0.9);
+    }
+}
+
+@-webkit-keyframes message {
+    from {
+        opacity: 0;
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0px) scale(0.9);
+        transform: translateX(0px) scale(0.9);
+    }
+}
+.home-caroussel{
+    /*border-radius: var(--radius);*/
+    box-shadow: var(--light-shadow);
+    background-color: var(--jumbotron);
+}
+.home-caroussel:hover{
+    box-shadow: var(--dark-shadow);
+    transition: var(--transition);
+}
+.home-caroussel-container{
+    display: flex;
+    flex-wrap:wrap;
+}
+.col-left{
+    flex-grow:1;
+    min-width:450px;
+    width:550px;
+    max-width: 1000px;
+    margin:.5rem;
+}
+.col-right{
+    min-width:350px;
+    width:400px;
+    max-width: 900px;
+}
+.border-rounded{
+    border-radius: var(--radius) !important;
+}
+.carousel-inner{
+    height: 40vh;
+}
+.home-caroussel-img{
+    height: 28vh;
+    width: 100%;
+    object-fit: contain;
+}
+.replace-carousel{
+    display: none;
+}
+@media screen and (max-width: 1366px){}
+@media screen and (max-width: 768px){
+}
+@media screen and (max-width: 600px){}

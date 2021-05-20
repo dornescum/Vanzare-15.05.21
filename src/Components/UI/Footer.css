@@ -23,10 +23,10 @@
 /*    color: var(--dark);*/
 /*}*/
 .footer-btn{
-    color: var(--light);
+    color: var(--black);
     background: var(--mc-col);
     border: 1px solid var(--light);
-    padding: 0.3rem 0.15rem;
+    padding: 0.3rem 0.5rem;
     display: inline-block;
     margin-top: 0.75rem;
     /*text-transform: uppercase;*/
@@ -41,4 +41,9 @@
 .footer-btn:hover{
     background: var(--light);
     color: var(--mc-col);
+}
+.footer-img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: .2rem;
 }

@@ -1,5 +1,5 @@
 import './Footer.css';
-// import {Button} from "react-bootstrap";
+import phone from '../../assets/img/phone.png'
 
 const TheFooter =()=>{
     return <div className="footer">
@@ -7,7 +7,10 @@ const TheFooter =()=>{
         {/*    <li className="footer-link">090909</li>*/}
         {/*    <li className="footer-link">090909</li>*/}
         {/*</ul>*/}
-        <button className='footer-btn'>0762369717</button>
+        <button className='footer-btn'>
+            <img src={phone} className='footer-img'></img>
+
+            0762369717</button>
     </div>
 }
 export default TheFooter;

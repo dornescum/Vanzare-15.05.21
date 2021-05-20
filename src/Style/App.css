@@ -51,7 +51,7 @@
     --transition: all 0.3s linear;
     --transition-ease: all 0.3s ease;
     --transform: translate3d(0, -1px, 0);
-    --spacing: 0.02rem;
+    --spacing: 0.05rem;
     --radius: 5px;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);

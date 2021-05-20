@@ -76,11 +76,24 @@
 }
 @media screen and (max-width: 1366px){
     .col-right{
+        width: 800px;
+        max-width: 990px;
+    }
+    .col-left{
+        min-width:450px;
+        width:450px;
+        max-width: 1000px;
+    }
+    #message{
+        margin: 5rem 2rem 1rem 0;
+    }
+}@media screen and (max-width: 1024px){
+    .col-right{
         width: 900px;
         max-width: 990px;
     }
     #message{
-        margin: 1rem 1rem 1rem 4rem;
+        margin-left: 4rem;
     }
 }
 @media screen and (max-width: 768px){

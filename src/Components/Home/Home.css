@@ -35,7 +35,7 @@
 
 }
 .home-presentation{
-    /*padding-top: 2rem;*/
+   letter-spacing: var(--spacing);
 }
 
 #para {

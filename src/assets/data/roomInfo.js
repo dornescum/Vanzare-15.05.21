@@ -1,4 +1,4 @@
-const roomsInfo =[
+ const roomsInfo =[
     {
         name: 'acasa',
         title:'ceva',
@@ -23,3 +23,4 @@ const roomsInfo =[
     },
 
 ]
+ export default roomsInfo;

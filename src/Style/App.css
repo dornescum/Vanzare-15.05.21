@@ -59,7 +59,7 @@
 .img-general{
   cursor: pointer;
   transition: var(--transition);
-
+  width: 100%;
 }
 .img-general:hover{
   transform: var(--transform);

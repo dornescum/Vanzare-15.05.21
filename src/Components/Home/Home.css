@@ -281,18 +281,8 @@
     .img-card-main{
         height: 25vh;
     }
-    .col-left{
-        flex-grow:1;
-        min-width:450px;
-        width:550px;
-        max-width: 1400px;
-        margin:.5rem 4rem;
-    }
-    .col-right{
-        min-width:350px;
-        width:350px;
-        max-width: 500px;
-    }
+
+
 
 }
 @media screen and (max-width: 1024px){

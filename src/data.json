@@ -4,7 +4,7 @@
     "title": "Baie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/1.jpg",
+    "img": "/img/baie/Baie1-1920.webp",
     "id": 1
   },
 {
@@ -12,7 +12,7 @@
     "title": "Baie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/1.jpg",
+    "img": "/img/baie/Baie3-1920.webp",
     "id": 2
   },
   {
@@ -20,7 +20,7 @@
     "title": "Baie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/baie/Baie4-1920.webp",
     "id": 3
   },
 {
@@ -28,7 +28,7 @@
     "title": "Baie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/baie/Baie5-1920.webp",
     "id": 4
   },
   {
@@ -36,7 +36,7 @@
     "title": "Balcon",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/parcare/p-1920.webp",
     "id": 5
   },
 {
@@ -68,7 +68,7 @@
     "title": "Bucatarie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/bucatarie/Buc-2.webp",
     "id": 9
   },
 {
@@ -76,7 +76,7 @@
     "title": "Bucatarie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/bucatarie/Buc-3.webp",
     "id": 10
   },
   {
@@ -84,7 +84,7 @@
     "title": "Bucatarie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/bucatarie/Buc-4.webp",
     "id": 11
   },
 {
@@ -92,7 +92,7 @@
     "title": "Bucatarie",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/bucatarie/Buc-5.webp",
     "id": 12
   },
 {

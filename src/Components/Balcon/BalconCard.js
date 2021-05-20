@@ -1,14 +1,10 @@
 import dataInfo from '../../data.json'
-import {Button, Card, CardGroup} from "react-bootstrap";
-import CardHelper from "../UI/Helpers/CardHelper/CardHelper";
-import {useState} from "react";
-
-
+import { Card, CardGroup} from "react-bootstrap";
 
 const BalconCard =()=>{
     // const [data, setData]=useState(dataInfo)
     const filteredData = dataInfo.filter((item)=>{
-        return item.name ==="Baie"
+        return item.name ==="Balcon"
     })
 
     let title ='dsadasdas';
@@ -20,13 +16,18 @@ const BalconCard =()=>{
 
     return <CardGroup className="home-card">
         {filteredData.map((item) => {
-            const {id, img, title, desc} = item;
+            const {id, img, name, desc} = item;
             return <div className="col-lg-6 col-sm-4 py-1"  key={id}>
                 <Card className="home-card-item">
                     <Card.Img variant="top"
-                              src={img} className='img-general'/>
+                              src={img}
+                              srcSet='/img/parcare/p-600.webp 600w, /img/parcare/p-1366.webp 1400w, /img/parcare/p-1920.webp 1920w'
+                              sizes="(max-width:600px) 100vw,
+                            (max-width: 768px) 100vh,
+                            (max-width:1920px) 100vh"
+                              className='img-general'/>
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
+                        <Card.Title>{name}</Card.Title>
                         <Card.Text>
                             {desc}
                         </Card.Text>

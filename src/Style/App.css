@@ -3,14 +3,14 @@
 /*}*/
 
 .App-logo {
-  height: 2rem;
-  /*pointer-events: none;*/
+    height: 2rem;
+    /*pointer-events: none;*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 /*.App-header {*/
@@ -29,63 +29,76 @@
 /*}*/
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/*font-family: 'Indie Flower', cursive;*/
-:root{
-  --mc-col:#bf8fc6;
-  --light:#f2c0f9;
-  --dark:#8e6195;
-  --backgroud:   #fff0f5;
-  --jumbotron:#e9ecef;
-  --c-btn: #e2eafc;
-  --black: #000;
-  --white: #fff;
-  --font: 'Indie Flower', cursive;
-  --transition: all 0.3s linear;
-  --transition-ease: all 0.3s ease;
-  --transform:translate3d(0, -1px, 0);
-  --spacing: 0.02rem;
-  --radius: 5px;
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.img-general{
-  cursor: pointer;
-  transition: var(--transition);
-  width: 100%;
+/*font-family: 'Indie Flower', cursive;*/
+:root {
+    --mc-col: #bf8fc6;
+    --light: #f2c0f9;
+    --dark: #8e6195;
+    --backgroud: #fff0f5;
+    --jumbotron: #e9ecef;
+    --c-btn: #e2eafc;
+    --black: #000;
+    --white: #fff;
+    --font: 'Indie Flower', cursive;
+    --transition: all 0.3s linear;
+    --transition-ease: all 0.3s ease;
+    --transform: translate3d(0, -1px, 0);
+    --spacing: 0.02rem;
+    --radius: 5px;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
-.img-general:hover{
-  transform: var(--transform);
+
+.img-general {
+    cursor: pointer;
+    transition: var(--transition);
+    width: 100%;
+    object-fit: cover;
 }
-@media screen and (max-width: 1920px){
-  .img-general{
-    height: 70vh;
-  }
+
+.img-general:hover {
+    transform: var(--transform);
 }
-@media screen and (max-width: 1366px){
-  .img-general{
-    height: 55vh;
-  }
+
+@media screen and (max-width: 1920px) {
+    .img-general {
+        width: 100%;
+        height: 70vh;
+    }
 }
-@media screen and (max-width: 1024px){
-  .img-general{
-    height: 25vh;
-  }
+
+@media screen and (max-width: 1366px) {
+    .img-general {
+        width: 100%;
+        height: 55vh;
+    }
 }
-@media screen and (max-width: 768px){
-  .img-general{
-    height: 20vh;
-  }
+
+@media screen and (max-width: 1024px) {
+    .img-general {
+        width: 100%;
+        height: 25vh;
+    }
 }
-@media screen and (max-width: 600px){
-  .img-general{
-    height: 30vh;
-  }
+
+@media screen and (max-width: 768px) {
+    .img-general {
+        width: 100%;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img-general {
+        width: 100%;
+        height: 30vh;
+    }
 }

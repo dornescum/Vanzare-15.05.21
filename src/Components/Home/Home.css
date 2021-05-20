@@ -174,7 +174,9 @@
     box-shadow: var(--dark-shadow);
 }
 .img-card-main{
-    height: 28vh;
+    height: 32vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 .btn-main{
@@ -235,7 +237,7 @@
         height: 90vh;
     }
     .img-card-main{
-        height: 32vh;
+        height: 35vh;
     }
 }
 @media screen and (max-width: 1440px){
@@ -254,7 +256,7 @@
         height: 70vh;
     }
     .img-card-main{
-        height: 20vh;
+        height: 25vh;
     }
 }
 @media screen and (max-width: 1024px){
@@ -262,7 +264,7 @@
         height: 60vh;
     }
     .img-card-main{
-        height: 15vh;
+        height: 18vh;
     }
 }
 @media screen and (max-width: 768px){
@@ -281,10 +283,10 @@
         height: 60vh;
     }
     .home-card-item{
-        height: 25rem;
+        height: 28rem;
     }
     .img-card-main{
-        height: 15vh;
+        height: 22vh;
     }
 }
 @media screen and (max-width: 600px){

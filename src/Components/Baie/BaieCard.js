@@ -1,54 +1,24 @@
-import CardHelper from "../UI/Helpers/CardHelper/CardHelper";
-import data from '../../assets/data/roomInfo'
-import logo from '../../assets/img/1.jpeg';
-import {Button, Card, CardGroup} from "react-bootstrap";
+import {useState} from "react";
+import {Card, CardGroup} from "react-bootstrap";
+import dataInfo from "../../data.json";
+
 
 
 const BaieCard = () => {
-    const bathRoom = [
-        {
-            name: 'baie',
-            title: 'ceva',
-            path: '/',
-            desc: 'dsad  dsad dsa asdas asdas dsad asdasd as',
-            img: '/img/2.jpg',
-            id: 1
-        },
-        {
-            name: 'Living Room',
-            title: 'living room',
-            path: '/Living',
-            desc: 'dsad  dsad dsa asdas asdas dsad asdasd as',
-            img: '/img/2.jpg',
-            id: 2
-        },
-         {
-            name: 'acasa',
-            title: 'ceva',
-            path: '/',
-            desc: 'dsad  dsad dsa asdas asdas dsad asdasd as',
-            img: '/img/2.jpg',
-            id: 3
-        },
-        {
-            name: 'Living Room',
-            title: 'living room',
-            path: '/Living',
-            desc: 'dsad  dsad dsa asdas asdas dsad asdasd as',
-            img: '/img/2.jpg',
-            id: 4
-        },
-
-    ]
+    const [data, setData]=useState(dataInfo)
+    const filteredData = data.filter((item)=>{
+        return item.name ==="Baie"
+    })
     return <CardGroup className="home-card">
-        {bathRoom.map((item) => {
-            const {id, img, title, desc, path} = item;
+        {filteredData.map((item) => {
+            const {id, img, name, desc, srcset} = item;
             return <div className="col-lg-6 col-sm-4 py-1"  key={id}>
                 <Card className="home-card-item">
                     <Card.Img variant="top"
-                              src={img} className='img-general'/>
+                              src={img}
+                              className='img-general'/>
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
+                        <Card.Title>{name}</Card.Title>
                         <Card.Text>
                             {desc}
                         </Card.Text>

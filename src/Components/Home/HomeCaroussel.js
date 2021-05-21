@@ -28,7 +28,6 @@ const HomeCaroussel =()=>{
 
     return <div className="home-caroussel  border-rounded">
         <div className='home-caroussel-container'>
-
                 <div className='col-left'>
                     <Carousel >
                         {fotoCaroussel.map((el)=>{
@@ -53,10 +52,7 @@ const HomeCaroussel =()=>{
                 <div className='col-right'>
                     <p id='message'> Toate ferestrele apartamentului sunt spre curtea interioara, marginita la gard de nuci. Acest lucru il face racoros si umbros vara. Aerul conditionat cu care este echipata casa a fost foarte rar folosit.</p>
                 </div>
-
         </div>
-
-
     </div>
 };
 export default HomeCaroussel;

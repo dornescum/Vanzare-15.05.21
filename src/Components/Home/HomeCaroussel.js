@@ -6,21 +6,21 @@ import './Carousel.css'
 const HomeCaroussel =()=>{
     const fotoCaroussel =[
         {
-            img: logo,
-            title: "blababa sad",
-            desc: 'dsadasd dsad asd adasd sad asd as',
+            img: '/img/sm/Buc-sm.webp',
+            title: "Bucatarie",
+            desc: 'Practica pentru o famile mica',
             id: 1
         },
         {
-            img: logo,
-            title: "blababa sad",
-            desc: 'dsadasd dsad asd adasd sad asd as',
+            img: '/img/sm/Balcon-sm.webp',
+            title: "Balcon",
+            desc: 'Un loc intim pt o cafea',
             id: 2
         },
         {
-            img: logo,
-            title: "blababa sad",
-            desc: 'dsadasd dsad asd adasd sad asd as',
+            img: '/img/sm/p-600.webp',
+            title: "Parcare",
+            desc: 'Langa scara blocului',
             id: 3
         },
 
@@ -36,7 +36,7 @@ const HomeCaroussel =()=>{
                             return     <Carousel.Item key={id} >
                                 <img
                                     className="d-block home-caroussel-img"
-                                    src={logo}
+                                    src={img}
                                 />
                                 <Carousel.Caption>
                                     <h3>{title}</h3>

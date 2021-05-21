@@ -16,7 +16,7 @@ const HomeBottom =()=>{
         </Button>
         <Fade in={open}>
             <div id="fade-text">
-                Am scris un text ca si proba pt varianta asta de font sa vad cum arata
+               Pentru mai multe informații, vă rog să mă contactați pe numarul de telefon +40 756 058 966 sau pe adresa de email dornescu@gmail.com.
             </div>
         </Fade>
     </div>

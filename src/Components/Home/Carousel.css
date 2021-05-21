@@ -13,32 +13,33 @@
 @keyframes message {
     from {
         opacity: 0;
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
+        -webkit-transform: translateY(-200px);
+        transform: translateY(-200px);
     }
     to {
         opacity: 1;
         -webkit-transform: translateX(0px) scale(0.9);
-        transform: translateX(0px) scale(0.9);
+        transform: translateY(0px) scale(0.9);
     }
 }
 
 @-webkit-keyframes message {
     from {
         opacity: 0;
-        -webkit-transform: translateX(200px);
-        transform: translateX(200px);
+        -webkit-transform: translateY(-200px);
+        transform: translateY(-200px);
     }
     to {
         opacity: 1;
         -webkit-transform: translateX(0px) scale(0.9);
-        transform: translateX(0px) scale(0.9);
+        transform: translateY(0px) scale(0.9);
     }
 }
 .home-caroussel{
     /*border-radius: var(--radius);*/
     box-shadow: var(--light-shadow);
     background-color: var(--jumbotron);
+    /*width: 100%;*/
 }
 .home-caroussel:hover{
     box-shadow: var(--dark-shadow);
@@ -85,7 +86,8 @@
         max-width: 1000px;
     }
     #message{
-        margin: 5rem 2rem 1rem 0;
+        /*margin: 5rem 2rem 1rem 0;*/
+        margin: 10rem 2rem 1rem 0;
     }
 }@media screen and (max-width: 1024px){
     .col-right{
@@ -93,7 +95,9 @@
         max-width: 990px;
     }
     #message{
-        margin-left: 4rem;
+        /*margin-left: 4rem;*/
+        margin: 1rem 2rem 1rem 6rem;
+
     }
 }
 @media screen and (max-width: 768px){

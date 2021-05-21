@@ -36,7 +36,7 @@
     "title": "Balcon",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/parcare/p-1920.webp",
+    "img": "/img/balcon/Balcon-1.webp",
     "id": 5
   },
 {
@@ -44,7 +44,7 @@
     "title": "Balcon",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/balcon/Balcon-2.webp",
     "id": 6
   },
   {
@@ -52,7 +52,7 @@
     "title": "Balcon",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/balcon/Balcon-3.webp",
     "id": 7
   },
 {
@@ -60,7 +60,7 @@
     "title": "Balcon",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/balcon/Balcon-4.webp",
     "id": 8
   },
 {
@@ -163,32 +163,32 @@
     "name": "Living",
     "title": "Living",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/dormitor/Dormitor-6.webp",
+    "desc": "Fotoliul de la Jysk si lampa creaza un colt minunat pt citit sau lucru de acasa.\n",
+    "img": "/img/living/Living-1.webp",
     "id": 17
   },
 {
     "name": "Living",
     "title": "Living",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "desc": "Televizor Sony 4k / 123inch (2020)",
+    "img": "/img/living/Living-2.webp",
     "id": 18
   },
   {
     "name": "Living",
     "title": "Living",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "desc": "Masa solida cu 2 scaune asortate, Ikea, loc ideal pt servit masa.\n",
+    "img": "/img/living/Living-3.webp",
     "id": 19
   },
 {
     "name": "Living",
     "title": "Living",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "desc": "Canapea fixa 2 locuri, completeaza spatiul pt vizionat filme.",
+    "img": "/img/living/Living-4.webp",
     "id": 20
   },
   {
@@ -199,6 +199,5 @@
     "img": "/img/2.jpg",
     "id": 20
   }
-
 
 ]

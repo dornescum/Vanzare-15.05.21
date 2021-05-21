@@ -21,10 +21,10 @@ const BalconCard =()=>{
                 <Card className="home-card-item">
                     <Card.Img variant="top"
                               src={img}
-                              srcSet='/img/parcare/p-600.webp 600w, /img/parcare/p-1366.webp 1400w, /img/parcare/p-1920.webp 1920w'
-                              sizes="(max-width:600px) 100vw,
-                            (max-width: 768px) 100vh,
-                            (max-width:1920px) 100vh"
+                            //   srcSet='/img/parcare/p-600.webp 600w, /img/parcare/p-1366.webp 1400w, /img/parcare/p-1920.webp 1920w'
+                            //   sizes="(max-width:600px) 100vw,
+                            // (max-width: 768px) 100vh,
+                            // (max-width:1920px) 100vh"
                               className='img-general'/>
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>

@@ -3,7 +3,8 @@
     animation: message 10s;
     animation-fill-mode: forwards;
     transition: message linear;
-    margin:6rem 2rem;
+    margin:5rem 2rem;
+    font-size: 1.3rem;
 }
 
 #message:hover{

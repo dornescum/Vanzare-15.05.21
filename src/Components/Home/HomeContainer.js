@@ -1,9 +1,7 @@
 import {Carousel, Image} from "react-bootstrap";
-// import logo from '../../assets/img/1.jpeg';
-import './Carousel.css'
+// import 'Carousel.css'
 
-
-const HomeCaroussel =()=>{
+const HomeContainer =()=>{
     const fotoCaroussel =[
         {
             img: '/img/sm/Buc-sm.webp',
@@ -25,11 +23,11 @@ const HomeCaroussel =()=>{
         },
 
     ]
-
     return <div className="home-caroussel  border-rounded">
-        <div className='home-caroussel-container'>
-                <div className='col-left'>
-                    <Carousel >
+        <div className='container'>
+            <div className="row">
+                <div className='col-lg-6'>
+                    <Carousel>
                         {fotoCaroussel.map((el)=>{
                             const {id, title, desc, img} = el;
                             return     <Carousel.Item key={id} >
@@ -46,14 +44,15 @@ const HomeCaroussel =()=>{
 
                     </Carousel>
                 </div>
-                <div>
-                    <Image src='/img/sm/cadastru-1.webp' className='replace-carousel' fluid/>
-                </div>
-                <div className='col-right'>
+                {/*<div>*/}
+                {/*    <Image src='/img/sm/cadastru-1.webp' className='replace-carousel' fluid/>*/}
+                {/*</div>*/}
+                <div className='col-lg-6'>
                     <p id='message'> Toate ferestrele apartamentului sunt spre curtea interioara, marginita la gard de nuci. Acest lucru il face racoros si umbros vara. Aerul conditionat cu care este echipata casa a fost foarte rar folosit.</p>
                 </div>
+            </div>
+
         </div>
     </div>
-
-};
-export default HomeCaroussel;
+}
+export default HomeContainer;

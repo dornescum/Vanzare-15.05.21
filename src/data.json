@@ -100,7 +100,7 @@
     "title": "Dormitor",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/dormitor/Dormitor-6.webp",
     "id": 13
   },
 {
@@ -108,7 +108,7 @@
     "title": "Dormitor",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/dormitor/Dormitor-4.webp",
     "id": 14
   },
   {
@@ -116,7 +116,7 @@
     "title": "Dormitor",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/dormitor/Dormitor-3.webp",
     "id": 15
   },
 {
@@ -124,15 +124,47 @@
     "title": "Dormitor",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/dormitor/Dormitor-2.webp",
     "id": 16
+  },{
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/dormitor/Dormitor-1.webp",
+    "id": 131
   },
+{
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/dormitor/Dormitor-8.webp",
+    "id": 141
+  },
+  {
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/dormitor/Dormitor-5.webp",
+    "id": 151
+  },
+{
+    "name": "Dormitor",
+    "title": "Dormitor",
+    "path": "/",
+    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "img": "/img/dormitor/Dormitor-7.webp",
+    "id": 161
+  },
+
 {
     "name": "Living",
     "title": "Living",
     "path": "/",
     "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-    "img": "/img/2.jpg",
+    "img": "/img/dormitor/Dormitor-6.webp",
     "id": 17
   },
 {

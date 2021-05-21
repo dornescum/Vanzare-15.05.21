@@ -48,10 +48,7 @@ const HomeCaroussel =()=>{
                     </Carousel>
                 </div>
                 <div>
-                    <Image srcSet='/img/parcare/p-600.webp 600w, /img/parcare/p-1366.webp 1400w, /img/parcare/p-1920.webp 1920w'
-                           sizes="(max-width:600px) 100vw,
-                            (max-width: 768px) 100vh,
-                            (max-width:1920px) 100vh" className='replace-carousel' fluid/>
+                    <Image src='/img/sm/cadastru-1.webp' className='replace-carousel' fluid/>
                 </div>
                 <div className='col-right'>
                     <p id='message'> Toate ferestrele apartamentului sunt spre curtea interioara, marginita la gard de nuci. Acest lucru il face racoros si umbros vara. Aerul conditionat cu care este echipata casa a fost foarte rar folosit.</p>

@@ -5,28 +5,28 @@ import {CardGroup, Card, Button} from "react-bootstrap";
 const HomeCard = () => {
     const roomCard = [
         {
-            title: 'living-room',
+            title: 'Camera de zi',
             desc: 'Complet mobilat si echipat, open space cu bucataria.',
-            img: '/logo512.png',
-            path: './',
+            img: '/img/sm/Living-sm.webp',
+            path: './living',
             id: 1
         },
         {
-            title: 'bedroom',
+            title: 'Dormitor',
             desc: 'Cu dresing spatios si pat de mijloc, toata mobila a fost facuta la comanda sau este de provenienta IKEA.',
             img: '/img/sm/Dormitor-sm.webp',
             path: './dormitor',
             id: 2
         },
         {
-            title: 'kitchen',
+            title: 'Bucatarie',
             desc: 'Mobilata, complet echipata',
             img: '/img/sm/Bucatarie-s.webp',
             path: './bucatarie',
             id: 3
         },
         {
-            title: 'bathroom',
+            title: 'Baie',
             desc: 'Spatioasa si functionala, cu masina de spalat noua Whirpoll si baterii Hansgrohe.',
             img: '/img/sm/Baie3-600.webp',
             path: './baie',

@@ -3,7 +3,7 @@
     "name": "Baie",
     "title": "Baie",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "Masina de spalat Whirpool 2020",
     "img": "/img/baie/Baie1-1920.webp",
     "id": 1
   },
@@ -11,7 +11,7 @@
     "name": "Baie",
     "title": "Baie",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "Bateriile Hansgrohe",
     "img": "/img/baie/Baie3-1920.webp",
     "id": 2
   },
@@ -19,7 +19,7 @@
     "name": "Baie",
     "title": "Baie",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/baie/Baie4-1920.webp",
     "id": 3
   },
@@ -27,7 +27,7 @@
     "name": "Baie",
     "title": "Baie",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/baie/Baie5-1920.webp",
     "id": 4
   },
@@ -35,7 +35,7 @@
     "name": "Balcon",
     "title": "Balcon",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "Poti sa bei in LINISTE o cafea",
     "img": "/img/balcon/Balcon-1.webp",
     "id": 5
   },
@@ -43,7 +43,7 @@
     "name": "Balcon",
     "title": "Balcon",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "Masuta Ikea rabatabila",
     "img": "/img/balcon/Balcon-2.webp",
     "id": 6
   },
@@ -51,7 +51,7 @@
     "name": "Balcon",
     "title": "Balcon",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/balcon/Balcon-3.webp",
     "id": 7
   },
@@ -59,7 +59,7 @@
     "name": "Balcon",
     "title": "Balcon",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/balcon/Balcon-4.webp",
     "id": 8
   },
@@ -99,7 +99,7 @@
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "Eva!",
     "img": "/img/dormitor/Dormitor-6.webp",
     "id": 13
   },
@@ -107,7 +107,7 @@
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "Aspiratorul Karcher ramane cu apartamentul",
     "img": "/img/dormitor/Dormitor-4.webp",
     "id": 14
   },
@@ -115,7 +115,7 @@
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/dormitor/Dormitor-3.webp",
     "id": 15
   },
@@ -123,14 +123,14 @@
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/dormitor/Dormitor-2.webp",
     "id": 16
   },{
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/dormitor/Dormitor-1.webp",
     "id": 131
   },
@@ -138,7 +138,7 @@
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "",
     "img": "/img/dormitor/Dormitor-8.webp",
     "id": 141
   },
@@ -146,7 +146,7 @@
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "Evident calculatorul si tot ce este pe birou nu este de vanzare",
     "img": "/img/dormitor/Dormitor-5.webp",
     "id": 151
   },
@@ -154,7 +154,7 @@
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
-    "desc": "dsa dsadas dasd asdasd asdas asdasdas",
+    "desc": "rulouri Ikea",
     "img": "/img/dormitor/Dormitor-7.webp",
     "id": 161
   },

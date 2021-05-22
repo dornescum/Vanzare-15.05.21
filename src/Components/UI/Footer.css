@@ -29,6 +29,7 @@
     padding: 0.3rem 0.5rem;
     display: inline-block;
     margin-top: 0.75rem;
+    margin-right: 1rem;
     /*text-transform: uppercase;*/
     letter-spacing: var(--spacing);
     border-radius: var(--radius);
@@ -37,6 +38,9 @@
     transition: var(--transition);
     /*width: 100px;*/
     outline: none;
+    /*animation: btn-footer 20s infinite;*/
+    /*animation-fill-mode: forwards;*/
+
 }
 .footer-btn:hover{
     background: var(--light);
@@ -47,3 +51,17 @@
     width: 1.2rem;
     margin-right: .2rem;
 }
+/*@keyframes btn-footer {*/
+/*    0%{*/
+/*        transform: translateX(-20px) scale(1);*/
+
+/*    }*/
+/*    50%{*/
+/*        transform:translateX(-30px) scale(1.1);*/
+/*        background-color: var(--light);*/
+/*        padding: 0.8rem 1rem;*/
+/*    }*/
+/*    100%{*/
+/*        transform: translateX(-20px) scale(1);*/
+/*    }*/
+/*}*/

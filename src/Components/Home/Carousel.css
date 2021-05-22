@@ -5,6 +5,7 @@
     transition: message linear;
     margin:5rem 2rem;
     font-size: 1.3rem;
+    letter-spacing: var(--spacing);
 }
 
 #message:hover{

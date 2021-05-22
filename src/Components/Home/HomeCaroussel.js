@@ -23,6 +23,12 @@ const HomeCaroussel =()=>{
             desc: 'Langa scara blocului',
             id: 3
         },
+ {
+            img: '/img/sm/cadastru-1.webp',
+            title: "Cadastru",
+            desc: '',
+            id: 4
+        },
 
     ]
 

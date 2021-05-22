@@ -21,7 +21,7 @@ const HomeCard = () => {
         {
             title: 'Bucatarie',
             desc: 'Mobilata, complet echipata',
-            img: '/img/sm/Bucatarie-s.webp',
+            img: '/img/sm/Buc-sm.webp',
             path: './bucatarie',
             id: 3
         },

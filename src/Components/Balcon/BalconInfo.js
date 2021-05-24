@@ -3,7 +3,7 @@ import InfoCard from "../UI/Helpers/InfoCard/InfoCard";
 
 const BalconInfo =()=>{
     let title = 'Balcon'
-    let desc ='Tip logie, inchis cu geam termopan va ofera un spatiu ideal pt servit cafeaua, uscat rufe sau depozitare.'
+    let desc ='Tip logie, inchis cu geam termopan va oferă un spatiu ideal pt servit cafeaua, uscat rufe sau depozitare.'
     return <InfoCard>
         <h1>{title}</h1>
         <p>{desc}</p>

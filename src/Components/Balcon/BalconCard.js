@@ -16,15 +16,15 @@ const BalconCard =()=>{
 
     return <CardGroup className="home-card">
         {filteredData.map((item) => {
-            const {id, img, name, desc} = item;
-            return <div className="col-lg-6 col-sm-4 py-1"  key={id}>
+            const {id, img, name, desc, smImg, mdImg, bgImg} = item;
+            return <div className="col-lg-6 col-sm-6 py-1"  key={id}>
                 <Card className="home-card-item">
                     <Card.Img variant="top"
                               src={img}
-                            //   srcSet='/img/parcare/p-600.webp 600w, /img/parcare/p-1366.webp 1400w, /img/parcare/p-1920.webp 1920w'
-                            //   sizes="(max-width:600px) 100vw,
-                            // (max-width: 768px) 100vh,
-                            // (max-width:1920px) 100vh"
+                              srcSet={`${smImg} 600w,${mdImg} 1400w, ${bgImg} 1920w`}
+                              sizes="(max-width:600px) 50vw,
+                        (max-width: 768px) 70vh,
+                        (max-width:1920px) 100vh"
                               className='img-general'/>
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>

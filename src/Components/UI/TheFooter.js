@@ -10,7 +10,7 @@ const TheFooter =()=>{
         <button className='footer-btn'>
             <img src={phone} className='footer-img'></img>
 
-            0762369717</button>
+             0756 058 966</button>
     </div>
 }
 export default TheFooter;

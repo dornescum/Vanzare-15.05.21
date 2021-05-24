@@ -6,7 +6,7 @@ const HomeContainer =()=>{
         {
             img: '/img/sm/Buc-sm.webp',
             title: "Bucatarie",
-            desc: 'Practica pentru o famile mica',
+            desc: 'Practică pentru o famile mică',
             id: 1
         },
         {
@@ -18,7 +18,7 @@ const HomeContainer =()=>{
         {
             img: '/img/sm/p-600.webp',
             title: "Parcare",
-            desc: 'Langa scara blocului',
+            desc: 'Langă scara blocului',
             id: 3
         },
 
@@ -48,7 +48,7 @@ const HomeContainer =()=>{
                 {/*    <Image src='/img/sm/cadastru-1.webp' className='replace-carousel' fluid/>*/}
                 {/*</div>*/}
                 <div className='col-lg-6'>
-                    <p id='message'> Toate ferestrele apartamentului sunt spre curtea interioara, marginita la gard de nuci. Acest lucru il face racoros si umbros vara. Aerul conditionat cu care este echipata casa a fost foarte rar folosit.</p>
+                    <p id='message'>  Toate ferestrele apartamentului sunt orientate spre curtea interioară, marginită la gard de nuci. Acest lucru il face răcoros si umbros vara. Aerul conditionat cu care este echipată casa a fost foarte rar folosit.</p>
                 </div>
             </div>
 

@@ -8,6 +8,9 @@ const HomeConditional=()=>{
     const test = 'Pentru mai multe informații, vă rog să mă contactați pe numarul de telefon +40 756 058 966 sau pe adresa de email dornescu@gmail.com.';
     const nothing = '';
    return <div className="home-bottom">
+       {/*<div className='poza-test'>*/}
+       {/*    <img src="../../assets/img/heels.png" loading='lazy' alt="" id='first-img'/>*/}
+       {/*</div>*/}
        <button onClick={() => setOpen(!open)} className='btn-contact'>
            Contact
        </button>

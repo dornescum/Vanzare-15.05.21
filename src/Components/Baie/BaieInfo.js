@@ -3,11 +3,11 @@ import InfoCard from "../UI/Helpers/InfoCard/InfoCard";
 
 const BaieInfo = () => {
     let title = 'Baie'
-    let desc = 'Spatioasa si functionala, cu masina de spalat noua Whirpoll si baterii Hansgrohe.\n' +
-        'In fata baii exista un mic dressing cu rafturi pt pantofi si spatii pt masa de calcat, fier de calcat, aspirator.\n'
+    let desc = 'Spatioasă si functională, cu masină de spălat nouă Whirpoll si baterii Hansgrohe.\n' +
+        'In fața baii exista un mic dressing cu rafturi pt pantofi si spații pt masa de călcat, fier de calcăt, aspirator.\n'
     return <InfoCard>
         <h1>{title}</h1>
-        <p>{desc}</p>
+        <p className='info-card'>{desc}</p>
     </InfoCard>
 }
 export default BaieInfo;

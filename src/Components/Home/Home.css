@@ -371,6 +371,7 @@
 
     .home-card-item {
         height: 32rem;
+        height: 35rem;
     }
 
     /*.img-card-main{*/
@@ -385,7 +386,8 @@
     }
 
     .img-card-main {
-        height: 25vh;
+        /*height: 25vh;*/
+        height: 30vh;
     }
 
 
@@ -409,7 +411,15 @@
 @media screen and (max-width: 992px) {
     .home-card-item {
         height: 52rem;
+
     }
+
+    .img-card-main {
+        height: 30vh !important;
+    }
+
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -433,7 +443,7 @@
     }
 
     .home-card-item {
-        height: 28rem;
+        height: 36rem;
     }
 
     .col-left {
@@ -441,7 +451,7 @@
     }
 
     .img-card-main {
-        height: 22vh;
+        height: 25vh;
     }
 }
 

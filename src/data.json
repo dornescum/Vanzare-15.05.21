@@ -5,14 +5,20 @@
     "path": "/",
     "desc": "Masina de spalat Whirpool 2020",
     "img": "/img/baie/Baie1-1920.webp",
+    "smImg": "/img/baie/Baie1-sm.webp",
+    "mdImg": "/img/baie/Baie1-md.webp",
+    "bgImg": "/img/baie/Baie1-1920.webp",
     "id": 1
   },
-{
+  {
     "name": "Baie",
     "title": "Baie",
     "path": "/",
     "desc": "Bateriile Hansgrohe",
     "img": "/img/baie/Baie3-1920.webp",
+    "smImg": "/img/baie/Baie3-sm.webp",
+    "mdImg": "/img/baie/Baie3-md.webp",
+    "bgImg": "/img/baie/Baie3-1920.webp",
     "id": 2
   },
   {
@@ -21,14 +27,20 @@
     "path": "/",
     "desc": "",
     "img": "/img/baie/Baie4-1920.webp",
+    "smImg": "/img/baie/Baie4-sm.webp",
+    "mdImg": "/img/baie/Baie4-md.webp",
+    "bgImg": "/img/baie/Baie4-1920.webp",
     "id": 3
   },
-{
+  {
     "name": "Baie",
     "title": "Baie",
     "path": "/",
     "desc": "",
     "img": "/img/baie/Baie5-1920.webp",
+    "smImg": "/img/baie/Baie5-sm.webp",
+    "mdImg": "/img/baie/Baie5-md.webp",
+    "bgImg": "/img/baie/Baie5-1920.webp",
     "id": 4
   },
   {
@@ -39,7 +51,7 @@
     "img": "/img/balcon/Balcon-1.webp",
     "id": 5
   },
-{
+  {
     "name": "Balcon",
     "title": "Balcon",
     "path": "/",
@@ -55,7 +67,7 @@
     "img": "/img/balcon/Balcon-3.webp",
     "id": 7
   },
-{
+  {
     "name": "Balcon",
     "title": "Balcon",
     "path": "/",
@@ -63,7 +75,7 @@
     "img": "/img/balcon/Balcon-4.webp",
     "id": 8
   },
-{
+  {
     "name": "Bucatarie",
     "title": "Bucatarie",
     "path": "/",
@@ -71,7 +83,7 @@
     "img": "/img/bucatarie/Buc-1.webp",
     "id": 9
   },
-{
+  {
     "name": "Bucatarie",
     "title": "Bucatarie",
     "path": "/",
@@ -87,7 +99,7 @@
     "img": "/img/bucatarie/Buc-4.webp",
     "id": 11
   },
-{
+  {
     "name": "Bucatarie",
     "title": "Bucatarie",
     "path": "/",
@@ -95,7 +107,7 @@
     "img": "/img/bucatarie/Buc-2.webp",
     "id": 12
   },
-{
+  {
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
@@ -103,7 +115,7 @@
     "img": "/img/dormitor/Dormitor-6.webp",
     "id": 13
   },
-{
+  {
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
@@ -119,14 +131,15 @@
     "img": "/img/dormitor/Dormitor-3.webp",
     "id": 15
   },
-{
+  {
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
     "desc": "",
     "img": "/img/dormitor/Dormitor-2.webp",
     "id": 16
-  },{
+  },
+  {
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
@@ -134,7 +147,7 @@
     "img": "/img/dormitor/Dormitor-1.webp",
     "id": 131
   },
-{
+  {
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
@@ -150,7 +163,7 @@
     "img": "/img/dormitor/Dormitor-5.webp",
     "id": 151
   },
-{
+  {
     "name": "Dormitor",
     "title": "Dormitor",
     "path": "/",
@@ -158,8 +171,7 @@
     "img": "/img/dormitor/Dormitor-7.webp",
     "id": 161
   },
-
-{
+  {
     "name": "Living",
     "title": "Living",
     "path": "/",
@@ -167,7 +179,7 @@
     "img": "/img/living/Living-1.webp",
     "id": 17
   },
-{
+  {
     "name": "Living",
     "title": "Living",
     "path": "/",
@@ -183,7 +195,7 @@
     "img": "/img/living/Living-3.webp",
     "id": 19
   },
-{
+  {
     "name": "Living",
     "title": "Living",
     "path": "/",
@@ -199,5 +211,4 @@
     "img": "/img/2.jpg",
     "id": 20
   }
-
 ]

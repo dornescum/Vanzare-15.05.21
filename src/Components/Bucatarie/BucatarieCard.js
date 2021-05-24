@@ -1,17 +1,15 @@
 import {useState} from "react";
 
-import {Button, Card, CardGroup} from "react-bootstrap";
+import {Card, CardGroup} from "react-bootstrap";
 import dataInfo from '../../data.json'
 
 
-// import dataInfo from "../../data.json";
 
 const BucatarieCard =()=>{
     const [data, setData]=useState(dataInfo)
 
     const filteredData = data.filter((item)=>{
         return item.name ==="Bucatarie"
-        console.log(filteredData)
     })
     return <CardGroup className="home-card">
         {filteredData.map((item) => {

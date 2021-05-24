@@ -224,18 +224,29 @@
 }
 
 .btn-main {
-    background-color: var(--mc-col);
     color: var(--black) !important;
-    outline: none;
-    border: none;
+    background: var(--mc-col);
+    border: 1px solid var(--light) !important;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    margin-top: 0.75rem;
+    margin-right: 1rem;
+    /*text-transform: uppercase;*/
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
     transition: var(--transition);
-    box-shadow: var(--light-shadow);
+    /*width: 100px;*/
+    outline: none !important;
 }
 
 .btn-main:hover {
     /*transform: var(--transform);*/
     box-shadow: var(--dark-shadow);
     color: var(--white) !important;
+    background: var(--mc-col) !important;
+    outline: none;
 
 }
 

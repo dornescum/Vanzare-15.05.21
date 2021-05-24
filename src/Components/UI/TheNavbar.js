@@ -12,7 +12,7 @@ const TheNavbar=()=>{
             id: 1
         },
          {
-            name: 'Living Room',
+            name: 'Camera de zi',
             path: '/Living',
             id: 2
         },
@@ -47,7 +47,7 @@ const TheNavbar=()=>{
     return <>
         <Navbar expand="lg" className='me-navbar'>
             <Navbar.Brand href="/" className="brand">
-                <img src={logo} alt="" className='App-logo' style={{paddingRight:"10px"}} />Burnitei
+                <img src={logo} alt="" className='App-logo' style={{paddingRight:"10px"}} />Burnitei 60-62
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">

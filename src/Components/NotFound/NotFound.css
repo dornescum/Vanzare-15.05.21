@@ -4,6 +4,7 @@
 .error-info{
     margin: 1rem 5rem;
 }
+
 .btn-error{
     color: var(--black);
     background: var(--mc-col);

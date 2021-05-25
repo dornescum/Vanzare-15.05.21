@@ -45,7 +45,6 @@ const HomeCard = () => {
         },
     ]
 
-
     return <CardGroup className="home-card">
         {roomCard.map((item) => {
             const {id, img, title, desc, path} = item;
@@ -66,8 +65,6 @@ const HomeCard = () => {
                 </Card>
             </div>
         })}
-
-
     </CardGroup>
 };
 export default HomeCard;

@@ -8,7 +8,6 @@ const NotFound =()=>{
             <h1>Error</h1>
             <Button className='btn-error' href='./'>go home</Button>
         </div>
-
     </div>
 }
 export default NotFound

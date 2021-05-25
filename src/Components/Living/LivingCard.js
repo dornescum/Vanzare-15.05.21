@@ -1,17 +1,15 @@
 import {useState} from "react";
 
-import {Button, Card, CardGroup} from "react-bootstrap";
+import { Card, CardGroup} from "react-bootstrap";
 import dataInfo from '../../data.json'
 
 
-// import dataInfo from "../../data.json";
 
 const LivingCard =()=>{
     const [data, setData]=useState(dataInfo)
 
     const filteredData = data.filter((item)=>{
         return item.name ==="Living"
-        console.log(filteredData)
     })
     return <CardGroup className="home-card">
         {filteredData.map((item) => {
@@ -20,8 +18,8 @@ const LivingCard =()=>{
             return <div className="col-lg-6 col-sm-6 py-1"  key={id}>
                 <Card className="home-card-item">
                     <Card.Img variant="top"
-                              src={img} className='img-general'
-                              srcSet={`${smImg} 600w,${mdImg} 1400w, ${bgImg} 1920w`}
+                              src={img} className='img-general' rel="preload"
+                               srcSet={`${smImg} 600w,${mdImg} 1400w, ${bgImg} 1920w`}
                               sizes="(max-width:600px) 50vw,
                         (max-width: 768px) 70vh,
                         (max-width:1920px) 100vh"

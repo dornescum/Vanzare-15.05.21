@@ -1,5 +1,4 @@
 import {CardGroup, Card, Button} from "react-bootstrap";
-// import logo from '../../assets/img/1.jpeg';
 
 
 const HomeCard = () => {

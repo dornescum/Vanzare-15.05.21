@@ -1,5 +1,4 @@
 import {Carousel, Image} from "react-bootstrap";
-// import logo from '../../assets/img/1.jpeg';
 import './Carousel.css'
 
 

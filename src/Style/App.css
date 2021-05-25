@@ -50,7 +50,7 @@
     --font: 'Indie Flower', cursive;
     --transition: all 0.3s linear;
     --transition-ease: all 0.3s ease;
-    --transform: translate3d(0, -1px, 0);
+    --transform: translate3d(0, -2px, 0);
     --spacing: 0.05rem;
     --radius: 5px;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -97,7 +97,8 @@ font-size: 1.5rem;
 @media screen and (max-width: 992px) {
     .img-general {
         width: 100%;
-        height: 30vh;
+        /*height: 30vh;*/
+        height: 40vh;
     }
 }
 

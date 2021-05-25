@@ -8,11 +8,7 @@ const BalconCard =()=>{
     })
 
     let title ='dsadasdas';
-    // return <CardHelper title={title}>
-    //     {data.map((item)=>{
-    //         console.log(item)
-    //     })}
-    // </CardHelper>
+
 
     return <CardGroup className="home-card">
         {filteredData.map((item) => {

@@ -1,0 +1,31 @@
+.error{
+    margin: 4rem auto;
+}
+.error-info{
+    margin: 1rem 5rem;
+}
+.btn-error{
+    color: var(--black);
+    background: var(--mc-col);
+    border: 1px solid var(--light);
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    margin-top: 0.75rem;
+    margin-right: 1rem;
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    outline: none;
+}
+.btn-error:hover{
+    background: var(--light);
+    color: var(--mc-col) !important;
+    border: none;
+
+}
+.btn-error:focus{
+    outline: none;
+    /*border: none;*/
+}

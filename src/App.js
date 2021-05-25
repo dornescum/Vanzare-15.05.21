@@ -21,6 +21,7 @@ const Living = lazy(()=>import('./Components/Living/Living'))
 const Dormitor = lazy(()=>import('./Components/Dormitor/Dormitor'))
 const Bucatarie = lazy(()=>import('./Components/Bucatarie/Bucatarie'))
 const Balcon = lazy(()=>import('./Components/Balcon/Balcon'))
+const Notfound = lazy(()=>import('./Components/NotFound/NotFound'))
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
               <Route exact path="/baie" component={Baie}/>
               <Route exact path="/balcon" component={Balcon}/>
               <Route path="/parcare" component={Parcare} />
-              {/*<Route component={NoMatch} />*/}
+              <Route component={Notfound} />
             </Switch>
           </Suspense>
           <TheFooter />
